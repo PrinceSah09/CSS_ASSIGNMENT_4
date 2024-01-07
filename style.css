@@ -1,0 +1,84 @@
+/* Resetting Defalt Browswer Settings */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 20px;
+}
+
+/* Create a flex container with a column layout */
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Styling for container 'a' */
+.a {
+    /* Center the container horizontally with top and bottom margin */
+    margin: 20px auto;
+
+    height: 200px;
+    width: 950px;
+    border: 1px solid black;
+}
+
+/* Styling for container 'b' */
+.b {
+    border: 3px solid black;
+    height: 233px;
+
+    /* Center the container horizontally with top and bottom margin */
+    margin: 20px auto;
+    width: 950px;
+}
+
+/* Styling for container 'c' */
+.c {
+    /* Center the container horizontally with top and bottom margin */
+    margin: 20px auto;
+    height: 358px;
+    width: 950px;
+}
+
+/* Styling for images within container 'a' */
+.a img {
+    width: 100%;
+    height: 238%;
+
+    /* Apply a clip path for visual effect(Top Half) */
+    clip-path: inset(0% -1% 64% 0%);
+}
+
+/* Styling for images within container 'b' */
+.b img {
+    width: 100%;
+    height: 218%;
+    margin-top: -32%;
+
+    /* Apply a clip path for visual effect(Bottom Half) */
+    clip-path: inset(60% -1% 0% 0%);
+}
+
+/* Styling for container with class 'image' */
+.image {
+    height: 300px;
+    width: 500px;
+    margin: 20px auto;
+}
+
+/* Styling for images within container with class 'image' */
+.image img {
+    height: 300px;
+    width: 500px;
+    margin: 0 auto;
+
+    /* cover container while maintaining aspect ratio */
+    object-fit: cover;
+}
+
+/* Styling for 'h1' elements */
+h1 {
+    margin: 0 0 2px 5px;
+}
